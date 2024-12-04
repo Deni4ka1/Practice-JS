@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Montserrat", system-ui;
+    background-color: rgb(31, 31, 31);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator__box {
+    background-color: rgb(86, 92, 141);
+    display: flex;
+    flex-basis: 800px;
+    flex-direction: column;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 20px
+}
+.num-1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.num__calculate {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculate {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+
+.num-prac {
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button__plus {
+    max-width: 300px;
+    background-color: rgb(119, 226, 119);
+    border-radius: 10px;
+    padding: 0 100px 0 100px
+}
+
+.button__minus {
+    max-width: 300px;
+    background-color: rgb(208, 110, 110);
+    border-radius: 10px;
+    padding: 0 100px 0 100px
+}
+
+.num-2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button__results {
+ margin-bottom: 20px;
+ border-radius: 10px;
+ background-color: #c2d24b;
+ 
+}
+
+.button__results:hover {
+    background-color: #d4e64b;
+    transition: all .3s ease;
+}
+
+.results {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.our__result {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.result__item {
+    margin: 10px 10px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: normal;
+}

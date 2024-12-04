@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head> 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice_JS-calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container box">
+            <div class="calculator__box">
+                <h2 class="num-1">Калькулятор:</h2>
+                    <div class="num__calculate">
+                        <input id="input1" class="num-prac" type="number" placeholder="Введіть 1 число">
+                        <input id="input2" class="num-prac" type="number" placeholder="Введіть 2 число">
+                    </div>
+                <div class="calculate">
+                    <button id="plus" class="button__plus">
+                        <h4 class="result">+</h4>
+                    </button>
+                    <button id="minus" class="button__minus">
+                        <h4 class="result">-</h4>
+                    </button>
+                    <button id="multiplication" class="button__plus">
+                        <h4 class="result">*</h4>
+                    </button>
+                    <button id="division" class="button__minus">
+                        <h4 class="result">/</h4>
+                    </button>
+                </div>
+                <h4 class="num-2">Результат:</h4>
+                <button id="submit" class="button__results">
+                    <h4 class="results">Розрахувати</h4>
+                </button>
+                <div class="our__result">
+                    <p id="result" class="result__item"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script src="theory.js"></script>
+</body>
+</html>
