@@ -81,7 +81,7 @@ const listElement = document.getElementById('list')
 const notes = [
     {
         title: 'довчити масиви даних',
-        completed: false
+        completed: true
     },
     {
         title: 'піти погуляти',
